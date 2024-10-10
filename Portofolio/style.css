@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1f1f1f;
+}
+
+/*---- Navigation Bar Style ---- */
+.nav{ 
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.nav ul li{
+    margin-left: 3rem;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+} 
+
+/*---- ------------------ ---- */
+
+/*---- Header ---- */
+
+.container{
+    padding: 10px 10%;
+    margin-left: 50vh;
+}
+
+
+.name{
+    color: white;
+    /*margin-left: 60vh;*/
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+/*.name h1{
+    margin-left: 65vh;
+}*/
+
+/*----- about ------*/
+
+
+.who{
+    color: aliceblue;
+    /*justify-content: center;*/
+    /*display: flex;*/
+    /*margin-left: 60vh;*/
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about{
+    color: white;
+    /*margin-left: 60vh;*/
+    /*padding-left: 60vh;*/
+    display: flex;
+}
+
+.about p{
+    justify-content: center;
+}
+
+/*----- project ------*/
+
+#project{
+    padding: 50px 0;
+}
+
+.sub-title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.proj{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.proj:hover img{
+    transform: scale(1.1);
+}
+
+/* ---- layer1 ---- */
+
+.btn {
+    display: inline-block;
+    background-color: #ff004f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d4003f;
+}
+
+.proj:hover .layer1{
+    height: 100%;
+}
+
+.layer1{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(236, 236, 236, 0.6), #4B70F5);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer1 h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* ---- layer2 ---- */
+.proj:hover .layer2{
+    height: 100%;
+}
+
+.layer2{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(236, 236, 236, 0.6), #3DC2EC);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+}
+
+.layer2 h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/*.layer a{
+    margin-top: 20px;
+    color: cyan;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}*/
+
