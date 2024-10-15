@@ -162,14 +162,13 @@ header {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid white;
     padding: 14px 50px;
     border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
+    color: black;
     transition: background 0.5;
 }
 
 .btn:hover {
-    background: #ff004f
+    background: rgb(1, 214, 179);
 }
