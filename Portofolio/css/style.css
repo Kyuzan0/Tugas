@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
   --primary: #4CC9FE;
-  --secondary: #314355;
+  --secondary: #fd2a2a;
   --light: #F2F2F2;
-  --dark: #2C3E50;
+  --dark: black;
 }
 
 #spinner {
@@ -177,7 +177,7 @@
   top: 50%;
   left: 50%;
   font-size: 90px;
-  background: rgba(44, 62, 80, .9);
+  background: rgba(221, 221, 221, 0.9);
   opacity: 0;
   transition: .5s;
 }
