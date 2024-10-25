@@ -217,3 +217,13 @@
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
 }
+
+.akses {
+  text-decoration: none;
+  background-color: #817A6E;
+  border-radius: 5px;
+}
+
+.akses a {
+  color: #EFDB91;
+}
