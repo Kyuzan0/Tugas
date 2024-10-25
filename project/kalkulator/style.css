@@ -15,6 +15,32 @@ body{
     background: #e0e3eb;
 }
 
+nav.menu ul {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #1a5bbc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+nav.menu ul li {
+    list-style: none;
+}
+nav.menu ul a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+nav.menu ul a:hover {
+    background-color: #124694;
+    border-radius: 8px;
+}
+
 .container{
     position: relative;
     max-width: 300px;
