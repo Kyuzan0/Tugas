@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page | Julyanto</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome To Pacebook</h1>
-    <form>
-        <div style="margin-left: 55px;">
-            <input type="checkbox"><label> Remember me </label>
-            <a href="https://learn.microsoft.com/en-us/takelessons/media/forgot-password.png" style="margin-left: 33px;"> Forgot your password?</a><br>
-        </div>        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Password"> <button>Login</button>
-     
-    </form>
-    
+    <div class="log-form">
+        <h2>Login</h2>
+        <form>
+            <input type="text" title="username" placeholder="username" />
+            <input type="password" title="password" placeholder="password" />
+            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn2">Create Account</button>
+            <a class="forgot" href="#">Forgot Username?</a>
+            </form>
+    </div>
 </body>
 </html>
