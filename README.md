@@ -1,6 +1,6 @@
 # Tugas
 Tugas Mata Kuliah Pemrograman Web 1
-  - Login Page ->  [go](https://portf.bjir.me/project/loginpage/login)
-  - Kalkulator ->  [go](https://portf.bjir.me/project/kalkulator/cal)
-  - Portofolio ->  [go](https://portf.bjir.me)
-  - Dashboard  ->  [go](https://portf.bjir.me/project/dashboard/)
+  - Login Page ->  [go](https://kyuzan0.github.io/Tugas/project/loginpage/login.html)
+  - Kalkulator ->  [go](https://kyuzan0.github.io/Tugas/project/kalkulator/cal.html)
+  - Portofolio ->  [go](https://kyuzan0.github.io/Tugas/#)
+  - Dashboard  ->  [go](https://kyuzan0.github.io/Tugas/project/dashboard/index.html)
