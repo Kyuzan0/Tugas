@@ -398,15 +398,15 @@ function draw() {
 }
 function drawCourt() {
   if (invalid.court) {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (playing) drawPiece(ctx, current.type, current.x, current.y, current.dir);
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Membersihkan canvas
+    if (playing) drawPiece(ctx, current.type, current.x, current.y, current.dir); // Menggambar potongan Tetris
     var x, y, block;
     for (y = 0; y < ny; y++) {
       for (x = 0; x < nx; x++) {
-        if ((block = getBlock(x, y))) drawBlock(ctx, x, y, block.color);
+        if ((block = getBlock(x, y))) drawBlock(ctx, x, y, block.color); // Menggambar blok yang ada
       }
     }
-    ctx.strokeRect(0, 0, nx * dx - 1, ny * dy - 1); // court boundary
+    ctx.strokeRect(0, 0, nx * dx - 1, ny * dy - 1); // Menggambar batas court
     invalid.court = false;
   }
 }

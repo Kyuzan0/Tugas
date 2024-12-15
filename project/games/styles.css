@@ -57,6 +57,7 @@ body {
 }
 
 #stats {
+  display: none;
   text-align: right;
   margin-left: 2em;
 }
@@ -65,4 +66,19 @@ body {
 #rows {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  #tetris {
+    flex-direction: column; /* Mengubah layout menjadi vertikal di layar kecil */
+  }
+
+  #canvas {
+    margin-right: 0; /* Hilangkan margin di layar kecil */
+    margin-bottom: 1em;
+  }
+
+  #upcoming {
+    margin-top: 1em; /* Memberikan jarak yang lebih besar di bawah #canvas */
+  }
 }
