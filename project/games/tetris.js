@@ -5,10 +5,10 @@ function get(id) {
   return document.getElementById(id);
 }
 function hide(id) {
-  get(id).style.visibility = "hidden";
+  get(id).style.display = "none";
 }
 function show(id) {
-  get(id).style.visibility = null;
+  get(id).style.display = "block";
 }
 function html(id, html) {
   get(id).innerHTML = html;
@@ -200,11 +200,14 @@ function keydown(ev) {
 //-------------------------------------------------------------------------
 function play() {
   hide("start");
+  hide("game-over"); // Sembunyikan pesan kalah
   reset();
   playing = true;
 }
+
 function lose() {
-  show("start");
+  show("start"); // Tampilkan menu mulai ulang
+  show("game-over"); // Tampilkan pesan kalah
   setVisualScore();
   playing = false;
 }
