@@ -1,11 +1,13 @@
 body {
+  background-image: url(‘https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg’);
+  background-repeat: no-repeat;
   font-family: Helvetica, sans-serif;
 }
 
 #tetris {
-  margin: 1em auto;
+  margin: 10em auto;
   padding: 1em;
-  border: 4px solid black;
+  border: 4px solid rgb(25, 34, 71);
   border-radius: 10px;
   background-color: #f8f8f8;
 }
@@ -76,8 +78,8 @@ body {
   }
 
   #upcoming {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
   }
 
   #canvas {
@@ -91,7 +93,7 @@ body {
 @media screen and (min-width: 400px) and (min-height: 400px) {
   #tetris {
     font-size: 1em;
-    width: 350px;
+    width: 450px;
   }
 
   #menu {
@@ -100,12 +102,12 @@ body {
   }
 
   #upcoming {
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
   }
 
   #canvas {
-    width: 150px;
-    height: 300px;
+    width: 250px;
+    height: 500px;
   }
 }
